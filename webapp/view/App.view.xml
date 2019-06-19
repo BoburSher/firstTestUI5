@@ -1,18 +1,18 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="controller.App"
-	xmlns:html="http://www.w3.org/1999/xhtml">
-	<Carousel>
+<mvc:View displayBlock="true" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="rroot.controller.App">
+	<Button text = "left"></Button>
+	<Button text = "right"></Button>
+	<Button text="Display message" press="onPress"></Button>
+	<Input value="Input the name" width="300px"/>
+	<VBox >
+		<CheckBox text="Check" selected="true"/>
+		<CheckBox text="SAP FIORI"/>		
+	</VBox>
+		<Carousel class="sapUiContentPadding" loop="true">
 		<pages>
-			<Image src="http://theworldnewsproject.com/wp-content/uploads/2017/10/iStock-Destination-Zurich.jpg" height="400px"/>
-			<Image
-				src="https://cdn.zuerich.com/sites/default/files/styles/sharing/public/web_zurich_tt_sightseeing_fraumuenster_1600x900.jpg?itok=n-bkHlud"
-				height="400px"/>
+			<Image src="https://auto.ndtvimg.com/car-images/big/ford/mustang/ford-mustang.jpg?v=32" height="400px"/>
+			<Image src="https://auto.ndtvimg.com/car-images/big/ferrari/portofino/ferrari-portofino.jpg?v=27" height="400px"/>
+			<Image src="https://auto.ndtvimg.com/car-images/big/lamborghini/aventador-s/lamborghini-aventador-s.jpg?v=3" height="400px"/>
+			<Image src="https://s.aolcdn.com/commerce/autodata/images/USC50FRC201A021001.jpg" height="400px"/>
 		</pages>
 	</Carousel>
-	<App>
-		<pages>
-			<Page title="Title">
-				<content></content>
-			</Page>
-		</pages>
-	</App>
 </mvc:View>
